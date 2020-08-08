@@ -1,0 +1,21 @@
+%flex-row {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+%list-normalize {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+%button-customize {
+  border: none;
+  border-radius: 40px;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  transition: all 200ms linear;
+}

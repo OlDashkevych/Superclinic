@@ -1,0 +1,10 @@
+@mixin text-decor ($font-family: $default-font-family, $size:$default-font-size, $color:$default-text-color, $align:$default-text-align, $height:$default-line-height, $transform: $default-text-transform, $font-weight: $default-font-weight) {
+  font-family: $font-family;
+  font-size: $size;
+  color: $color;
+  text-align: $align;
+  line-height: $height;
+  text-transform: $transform;
+  font-weight: $font-weight;
+  text-decoration: none;
+}

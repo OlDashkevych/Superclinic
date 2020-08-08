@@ -1,0 +1,55 @@
+.banner-wrapper {
+  height: 474px;
+}
+
+.banner {
+  position: relative;
+  z-index: 111;
+  width: 430px;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  &__title {
+    font-family: 'PFDinTextCondPro-Regular', 'Lato', sans-serif;
+    font-size: 50px;
+    line-height: 55px;
+    text-align: right;
+    color: #000000;
+    margin: 0;
+  }
+
+  &__subtitle {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #2f80ed;
+  }
+
+  &__button {
+    @extend %button-customize;
+    width: 210px;
+    height: 32px;
+    background: #2f80ed;
+    border: 1px solid #2f80ed;
+    border-radius: 5px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-top: 66px;
+
+    &:hover {
+      background-color: rgb(23, 81, 112);
+    }
+  }
+}

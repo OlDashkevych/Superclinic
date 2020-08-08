@@ -1,0 +1,106 @@
+@media (max-width: 1200px) {
+  .container {
+    padding: 0 5%;
+  }
+
+  .header-logo {
+    &__text1 {
+      font-size: 18px;
+    }
+
+    & svg {
+      height: 50px;
+      width: 50px;
+    }
+  }
+
+  .header-appointment {
+    width: 128px;
+    height: 44px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding-top: 10px;
+    height: 200px;
+
+    &-nav {
+      order: 1;
+      width: 100%;
+
+      &__list {
+        width: 100%;
+      }
+    }
+
+    &-appointment {
+      width: 100%;
+      order: 2;
+    }
+  }
+
+  .banner {
+    width: 100%;
+
+    &-wrapper {
+      height: 348px;
+    }
+
+    &__title {
+      text-align: center;
+      font-size: 38px;
+    }
+
+    &__subtitle {
+      text-align: center;
+      width: 100%;
+    }
+
+    &__button {
+      margin: 30px auto 0;
+    }
+  }
+
+  .info-text {
+    font-size: 12px;
+  }
+
+  .select {
+    padding-top: 70px;
+
+    &-right {
+      padding: 0px;
+      padding-left: 10px;
+      padding-top: 30px;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .select {
+    height: 334px;
+
+    &-right {
+      display: none;
+    }
+
+    &-left {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 436px) {
+  .features-menu__item {
+    font-size: 12px;
+    background-size: 60px;
+  }
+}
+
+@media (max-width: 400px) {
+  .header-nav__list-item {
+    width: 50%;
+    height: 26px;
+  }
+}

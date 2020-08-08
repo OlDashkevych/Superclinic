@@ -1,0 +1,19 @@
+/*
+ * Все паршалы импортировать в этот файл
+ */
+
+@import './normalize.scss';
+@import 'base.scss';
+@import './helpers/mixins';
+@import './helpers/placeholders';
+@import './helpers/constants.scss';
+@import './fonts';
+//
+@import './components/header.scss';
+@import './components/header-banner.scss';
+@import './components/banner.scss';
+@import './components/infoBar.scss';
+@import './components/featuresMenu.scss';
+@import './components/select.scss';
+//
+@import './media.scss';

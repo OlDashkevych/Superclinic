@@ -1,0 +1,44 @@
+.infobar {
+  background: #2f80ed;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  height: 72px;
+  @extend %flex-row;
+  user-select: text;
+}
+
+.info {
+  width: calc(100% / 3);
+  text-align: center;
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  &-text {
+    font-family: 'Karla', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #ffffff;
+
+    &::selection {
+      background-color: rgb(180, 132, 132);
+    }
+  }
+
+  &:not(:last-of-type):after {
+    content: '';
+    display: block;
+    height: 48px;
+    width: 2px;
+    background-color: #fff;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 2px;
+  }
+}
